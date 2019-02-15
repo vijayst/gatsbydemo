@@ -6,4 +6,25 @@
     align-items: center;
     background: url('../images/bg.jpeg') no-repeat center center fixed;
     background-size: cover;
+    color: white;
+}
+
+.company {
+    font-size: 36px;
+}
+
+.services {
+    margin-top: 48px;
+    list-style: none;
+    font-size: 24px;
+}
+
+.services a:link, .services a:visited {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+.services a:hover {
+    color: white;
+    text-decoration: underline;
 }
