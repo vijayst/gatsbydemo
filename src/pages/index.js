@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import SEO from '../components/seo';
+import Home from '../home/index';
 
 const IndexPage = () => (
     <div>
         <SEO title="Vijay Consulting Services" keywords={[`gatsby`, `application`, `react`]} />
-        <div>Hello world</div>
+        <Home />
     </div>
 );
 
