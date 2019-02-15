@@ -1,6 +1,7 @@
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
+import styles from './header.module.css';
 
 const Header = ({ siteTitle }) => (
     <header
@@ -27,6 +28,16 @@ const Header = ({ siteTitle }) => (
                     {siteTitle}
                 </Link>
             </h1>
+            <div>
+                <ul className={styles.menu}>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/services">Services</Link>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
 );
