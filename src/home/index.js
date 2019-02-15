@@ -10,10 +10,10 @@ export default function Home() {
                     Vijay Consulting
                 </div>
                 <ul className={styles.services}>
-                    <li><Link to="/services/react-apps">React apps</Link></li>
-                    <li><Link to="/services/react-apps">React Native apps</Link></li>
-                    <li><Link to="/services/react-apps">Next apps</Link></li>
-                    <li><Link to="/services/react-apps">Gatsby apps</Link></li>
+                    <li><Link to="/services/react-app">React apps</Link></li>
+                    <li><Link to="/services/react-native-app">React Native apps</Link></li>
+                    <li><Link to="/services/nextjs-app">Next apps</Link></li>
+                    <li><Link to="/services/gatsby-app">Gatsby apps</Link></li>
                 </ul>
             </div>
         </div>
