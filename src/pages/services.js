@@ -1,14 +1,14 @@
 import React from 'react';
-import styles from './index.module.css';
 import { Link } from 'gatsby';
+import Layout from '../components/layout';
+import styles from './services.module.css';
 
-export default function Home() {
+export default function Services() {
     return (
-        <div className={styles.home}>
+        <Layout>
             <div>
-                <div className={styles.company}>
-                    Vijay Consulting
-                </div>
+                <h1>Services</h1>
+                <p>View our service offerings:</p>
                 <ul className={styles.services}>
                     <li><Link to="/services/react-app">React apps</Link></li>
                     <li><Link to="/services/react-native-app">React Native apps</Link></li>
@@ -16,6 +16,6 @@ export default function Home() {
                     <li><Link to="/services/gatsby-app">Gatsby apps</Link></li>
                 </ul>
             </div>
-        </div>
+        </Layout>
     )
 }
