@@ -1,2 +1,2 @@
 ## Demo site using Gatsby
-Check [Demo site](https://stoic-hawking-bb7c89.netlify.com/)
+Check [Demo site](https://gatsbystaticdemo.netlify.com/)
